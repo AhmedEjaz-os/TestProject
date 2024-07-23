@@ -1,0 +1,49 @@
+.header {
+    padding: 24px 78px;
+    &-link {
+        &-1 {
+            a {
+                color: #9C9C9C;
+            }
+        }
+    }
+    &-right {
+        margin-left: 76px;
+        &-logo {
+            width: 172px;
+            height: 111px;
+        }
+        &-buttons {
+            margin-left: 107px;
+            &-1 {
+                background-color: #1D6E65;
+                color: #fff;
+            }
+            &-1, &-2 {
+                margin-right: 20px;
+            }
+            &-2, &-3 {
+                border-color: #B5B5B5;
+            }
+            &-circle {
+                margin-left: 61px;
+                button {
+                    background-color: #EDEDED;
+                }
+                &-1 {
+                    margin-right: 12px;
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                &-2 {
+                    img {
+                        width: 18px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
