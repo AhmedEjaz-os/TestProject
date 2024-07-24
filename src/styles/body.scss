@@ -89,6 +89,9 @@
                     left: 318px;
                     top: 212px;
                     z-index: 3;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }
