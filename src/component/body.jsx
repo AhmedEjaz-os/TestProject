@@ -4,7 +4,7 @@ import HomepageSection2 from './homepage-section2';
 import HomepageSection3 from './homepage-section3';
 import HomepageSection4 from './homepage-section4';
 import HomepageSection5 from './homepage-section5';
-import '../styles/body.scss'
+import HomepageSection6 from './homepage-section6';
 
 function Body() {
     return (
@@ -14,7 +14,7 @@ function Body() {
             <HomepageSection3 />
             <HomepageSection4 />
             <HomepageSection5 />
-            <div className='homepage-section-6'></div>
+            <HomepageSection6 />
         </div>
     )
 }

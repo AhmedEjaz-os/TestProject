@@ -135,5 +135,16 @@
                 }
             }
         }
+        &-6 {
+            padding: 90px 303px;
+            &-title {
+                margin-bottom: 64px;
+            }
+            &-view-all {
+                margin-top: 64px;
+                border-color: #171717;
+                padding: 20px 40px;
+            }
+        }
     }
 }
