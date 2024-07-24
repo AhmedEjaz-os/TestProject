@@ -2,6 +2,9 @@
     &-section {
         &-1 {
             position: relative;
+            &-top-banner {
+                width: 100%;
+            }
             &-top-banner-bottom {
                 position: absolute;
                 left: 33%;
@@ -49,6 +52,44 @@
             }
             &-rectangle {
                 margin-right: 31px;
+            }
+        }
+        &-4 {
+            padding-top: 120px;
+            padding-bottom: 120px;
+            &-left{
+                margin-right: 70px;
+                img {
+                    width: 56px;
+                    height: 78px;
+                    margin-bottom: 40px;
+                }
+                h1 {
+                    font-size: 50px;
+                    line-height: 120%;
+                }
+                p {
+                    font-size: 20px;
+                    letter-spacing: 2%;
+                    line-height: 160%;
+                }
+            }
+            &-right{
+                &-image-container {
+                    width: fit-content;
+                    border-radius: 20px;
+                    box-shadow: inset 30px 0px 60px #171717;
+                    z-index: 2;
+                }
+                &-video-image {
+                    position: relative;
+                    z-index: 1;
+                }
+                &-play-btn {
+                    left: 318px;
+                    top: 212px;
+                    z-index: 3;
+                }
             }
         }
     }
