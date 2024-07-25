@@ -1,5 +1,22 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@font-face {
+    font-family: "Poppins";
+    src: url('../src/fonts/Poppins-Black.ttf')
+         url('../src/fonts/Poppins-Bold.ttf')
+         url('../src/fonts/Poppins-ExtraBold.ttf')
+         url('../src/fonts/Poppins-ExtraLight.ttf')
+         url('../src/fonts/Poppins-Italic.ttf')
+         url('../src/fonts/Poppins-Light.ttf')
+         url('../src/fonts/Poppins-Medium.ttf')
+         url('../src/fonts/Poppins-Regular.ttf')
+         url('../src/fonts/Poppins-SemiBold.ttf')
+         url('../src/fonts/Poppins-Thin.ttf');
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
 
 body {
 }

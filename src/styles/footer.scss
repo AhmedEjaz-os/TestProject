@@ -1,0 +1,39 @@
+.footer {
+    background-color: #242424;
+    padding: 67px 200px 78px;
+    &--column-1 {
+        margin-right: 154px;
+        &-logo {
+            width: 145px;
+            height: 110px;
+        }
+        &-description {
+            margin-top: 26px;
+            font-size: 16px;
+            letter-spacing: -2%;
+            line-height: 26px;
+        }
+    }
+    &--column-2 {
+        div {
+            h1 {
+                font-size: 22px;
+                margin-bottom: 20px;
+                line-height: 120%;
+            }
+            p {
+                font-size: 18px;
+                line-height: 180%;
+                font-weight: 500;
+            }
+        }
+    }
+    &-bottom {
+        background-color: #242424;
+        p {
+            font-size: 18px;
+            line-height: 27px;
+            color: rgba($color: #fff, $alpha: 0.5);
+        }
+    }
+}
