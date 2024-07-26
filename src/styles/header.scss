@@ -17,17 +17,27 @@
             &-1 {
                 background-color: #1D6E65;
                 color: #fff;
+                &:hover {
+                    background-color: #1D6E65;
+                    color: #fff;
+                }
             }
             &-1, &-2 {
                 margin-right: 20px;
             }
             &-2, &-3 {
                 border-color: #B5B5B5;
+                &:hover {
+                    border-color: #B5B5B5;
+                }
             }
             &-circle {
                 margin-left: 61px;
                 button {
                     background-color: #EDEDED;
+                    &:hover {
+                        background-color: #EDEDED;
+                    }
                 }
                 &-1 {
                     margin-right: 12px;

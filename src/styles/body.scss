@@ -31,6 +31,9 @@
                     background-color: #fff;
                     padding: 22px 50px;
                     margin-top: 47px;
+                    &:hover {
+                        background-color: #fff;
+                    }
                 }
             }
         }
@@ -127,11 +130,20 @@
                 &-btn-1 {
                     color: #fff;
                     background-color: #1D6E65;
+                    &:hover {
+                        color: #fff;
+                        background-color: #1D6E65;
+                    }
                 }
                 &-btn-2 {
                     color: #000;
                     background-color: #fff;
                     border-color: #242424;
+                    &:hover {
+                        color: #000;
+                        background-color: #fff;
+                        border-color: #242424;
+                    }
                 }
             }
         }
@@ -142,8 +154,11 @@
             }
             &-view-all {
                 margin-top: 64px;
-                border-color: #171717;
                 padding: 20px 40px;
+                border-color: #171717;
+                &:hover {
+                    border-color: #171717;
+                }
             }
         }
     }
