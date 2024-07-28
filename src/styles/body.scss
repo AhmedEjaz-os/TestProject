@@ -32,7 +32,9 @@
                     padding: 22px 50px;
                     margin-top: 47px;
                     &:hover {
-                        background-color: #fff;
+                        background-color: #1D6E65;
+                        color: #fff;
+                        border-color: #fff;
                     }
                 }
             }
@@ -104,9 +106,10 @@
             width: 100%;
             background-image: url('../../public/assets/section-5-background.png');
             background-position: center;
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             img {
+                margin-top: 66px;
                 width: 50px;
                 height: 70px;
             }
@@ -122,6 +125,8 @@
                 margin-top: 20px;
             }
             &-btn-container {
+                margin-top: 52px;
+                margin-bottom: 100px;
                 &-btn-1, &-btn-2 {
                     font-size: 20px;
                     line-height: 120%;
@@ -131,8 +136,9 @@
                     color: #fff;
                     background-color: #1D6E65;
                     &:hover {
-                        color: #fff;
-                        background-color: #1D6E65;
+                        color: #000;
+                        background-color: #fff;
+                        border-color: #000;
                     }
                 }
                 &-btn-2 {
@@ -140,15 +146,15 @@
                     background-color: #fff;
                     border-color: #242424;
                     &:hover {
-                        color: #000;
-                        background-color: #fff;
-                        border-color: #242424;
+                        background-color: #1D6E65;
+                        border-color: #1D6E65;
+                        color: #fff;
                     }
                 }
             }
         }
         &-6 {
-            padding: 90px 303px;
+            padding: 90px 190px;
             &-title {
                 margin-bottom: 64px;
             }
@@ -157,7 +163,9 @@
                 padding: 20px 40px;
                 border-color: #171717;
                 &:hover {
-                    border-color: #171717;
+                    border-color: #1D6E65;
+                    background-color: #1D6E65;
+                    color: #fff;
                 }
             }
         }
